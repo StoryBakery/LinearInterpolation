@@ -1,4 +1,4 @@
-name = "story_bakery/linear_interpolation"
+name = "storybakery/linear_interpolation"
 version = "0.1.0"
 license = "MIT"
 includes = [
