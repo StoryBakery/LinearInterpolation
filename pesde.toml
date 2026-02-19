@@ -1,5 +1,5 @@
 name = "storybakery/linear_interpolation"
-version = "0.1.1"
+version = "0.1.0"
 license = "MIT"
 includes = [
     "pesde.toml",
@@ -14,7 +14,7 @@ includes = [
 
 [target]
 environment = "roblox"
-lib = "src/LinearInterpolation.luau"
+lib = "src/init.luau"
 build_files = ["src"]
 
 [indices]
@@ -30,8 +30,6 @@ roblox_sync_config_generator = ".pesde/scripts/roblox_sync_config_generator.luau
 sourcemap_generator = ".pesde/scripts/sourcemap_generator.luau"
 
 [dev_dependencies]
-setup-project-configs = { repo = "https://github.com/StoryBakery/setup-project-configs", rev = "0ba9379f8709c3e846ae04180fd8fba854ed52ae" }
-pesde-gitrev = { repo = "https://github.com/StoryBakery/pesde-gitrev", rev = "720daa5342f214c4ee53c978e56daae5884199a2" }
 scripts = { name = "pesde/scripts_rojo", version = "^0.2.0", target = "lune" }
 rojo = { name = "pesde/rojo", version = "^7.5.1", target = "lune" }
 
